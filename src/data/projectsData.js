@@ -74,20 +74,20 @@ export const projectsData = [
     link: "https://docs.google.com/document/d/1gnDW8wNkR7a8GkdoTP3hKcb7qZM0DTiSVxuCxvDKNUA/edit?usp=sharing",
   },
 
-  {
-    title: "Baselight",
-    image: baselight,
+  // {
+  //   title: "Baselight",
+  //   image: baselight,
 
-    description:
-      "An interactive light-and-shadow animation built with HTML, CSS, and JavaScript.",
+  //   description:
+  //     "An interactive light-and-shadow animation built with HTML, CSS, and JavaScript.",
 
-    technologies: [
-      "HTML",
-      "CSS",
-      "JS",
-    ],
+  //   technologies: [
+  //     "HTML",
+  //     "CSS",
+  //     "JS",
+  //   ],
 
-    link: "https://base-light.vercel.app/",
-  },
+  //   link: "https://base-light.vercel.app/",
+  // },
   
 ];
