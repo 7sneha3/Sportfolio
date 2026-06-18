@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+
+  background: linear-gradient(
+    90deg,
+    #06000d 0%,
+    #090012 35%,
+    #160220 100%
+  );
+
+  color: white;
+  /* overscroll-behavior: none; */
+}
+
+@keyframes skillLine {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(320%);
+  }
+}
+
+.animate-skillLine {
+  animation: skillLine 4s linear infinite;
+}
