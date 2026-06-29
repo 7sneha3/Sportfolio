@@ -2,6 +2,7 @@ import edubot from "../assets/projects/edubot.png";
 import pharma from "../assets/projects/pharma.png";
 import tickettrove from "../assets/projects/tickettrove.png";
 import slirics from "../assets/projects/slirics.png";
+import utilitySystem from "../assets/projects/utilitySystem.png";
 import baselight from "../assets/projects/baselight.png";
 
 export const projectsData = [
@@ -19,6 +20,24 @@ export const projectsData = [
     ],
 
     link: "https://docs.google.com/document/d/1pFZ01fvjRfa997sH-bHd6T2amErua80Y4FZsyCusLog/edit?usp=sharing",
+  },
+  
+  {
+    title: "Smart Industrial Utility Monitoring",
+    image: utilitySystem,
+
+    description:
+      "AI-powered platform for monitoring and forecasting industrial energy, water consumption.",
+
+    technologies: [
+      "React JS",
+      "Flask",
+      "MongoDB",
+      "SVR",
+      "LSTM",
+    ],
+
+    link: "https://github.com/7sneha3/Smart-Utility-Monitoring-System",
   },
   
   {

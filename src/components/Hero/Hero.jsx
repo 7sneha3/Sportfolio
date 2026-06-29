@@ -7,6 +7,7 @@ import { FiBriefcase } from "react-icons/fi";
 import { Link } from "react-scroll";
 import { TypeAnimation } from "react-type-animation";
 import { SiLeetcode } from "react-icons/si";
+// import SplashCursor from "../SplashCursor/SplashCursor";
 
 import avatar from "../../assets/avatar.png";
 
@@ -28,6 +29,21 @@ const Hero = () => {
     overflow-hidden
       "
     >
+
+      {/* <SplashCursor
+  DENSITY_DISSIPATION={4}
+  VELOCITY_DISSIPATION={2}
+  PRESSURE={0.08}
+  CURL={2}
+  SPLAT_RADIUS={0.18}
+  SPLAT_FORCE={5000}
+  COLOR_UPDATE_SPEED={8}
+  SHADING
+  RAINBOW_MODE={false}
+  COLOR="#A855F7"
+/> */}
+
+
       <div
         className="
         max-w-7xl
@@ -55,7 +71,7 @@ const Hero = () => {
           </p>
 
           <h1
-  className="
+            className="
     text-5xl
     sm:text-4xl
     md:text-5xl
@@ -63,24 +79,24 @@ const Hero = () => {
     font-bold
     leading-tight
   "
->
-  I'm a
-  <br />
+          >
+            I'm a
+            <br />
 
-  <span className="text-purple-500">
-    <TypeAnimation
-      sequence={[
-        "Full Stack Developer",
-        2000,
-        "Software Engineer",
-        2000,
-      ]}
-      speed={40}
-      repeat={Infinity}
-      cursor={true}
-    />
-  </span>
-</h1>
+            <span className="text-purple-500">
+              <TypeAnimation
+                sequence={[
+                  "Full Stack Developer",
+                  2000,
+                  "Software Engineer",
+                  2000,
+                ]}
+                speed={40}
+                repeat={Infinity}
+                cursor={true}
+              />
+            </span>
+          </h1>
 
           <p
             className="
@@ -92,20 +108,20 @@ const Hero = () => {
             "
           >
             Focused on building responsive web applications,
-AI-powered solutions, and digital experiences
-with React, JavaScript, and modern technologies.
+            AI-powered solutions, and digital experiences
+            with React, JavaScript, and modern technologies.
             Turning Ideas into Digital Experiences...
           </p>
 
           {/* Buttons */}
 
           <div className="flex gap-5 mt-10">
-          <Link
-  to="contact"
-  smooth={true}
-  duration={800}
-  offset={-80}
-  className="
+            <Link
+              to="contact"
+              smooth={true}
+              duration={800}
+              offset={-80}
+              className="
     px-8
     py-4
 
@@ -123,9 +139,9 @@ with React, JavaScript, and modern technologies.
     transition
     cursor-pointer
   "
->
-  Contact Me
-</Link>
+            >
+              Contact Me
+            </Link>
 
             {/* <a
               href="/resume.pdf"
@@ -151,40 +167,40 @@ with React, JavaScript, and modern technologies.
               📄
             </a> */}
             <Link
-  to="projects"
-  smooth={true}
-  duration={700}
-  offset={-80}
-  className="
-    w-14
-    h-14
+              to="projects"
+              smooth={true}
+              duration={700}
+              offset={-80}
+              className="
+              w-14
+              h-14
 
-    rounded-full
+              rounded-full
 
-    border border-purple-500/30
+              border border-purple-500/30
 
-    bg-[#14061f]/70
-    backdrop-blur-xl
+              bg-[#14061f]/70
+              backdrop-blur-xl
 
-    flex
-    items-center
-    justify-center
+              flex
+              items-center
+              justify-center
 
-    cursor-pointer
+              cursor-pointer
 
-    hover:bg-purple-700/20
-    hover:scale-105
+              hover:bg-purple-700/20
+              hover:scale-105
 
-    transition-all
-  "
->
-  <FiBriefcase
-    className="
+              transition-all
+            "
+            >
+              <FiBriefcase
+                className="
       text-white
       text-2xl
     "
-  />
-</Link>
+              />
+            </Link>
           </div>
 
           {/* Social Icons */}
@@ -202,7 +218,7 @@ with React, JavaScript, and modern technologies.
               <SiLeetcode />
             </a>
           </div> */}
-          
+
           {/* <div className="flex items-center gap-4 mt-10">
 
 <a
@@ -293,11 +309,11 @@ with React, JavaScript, and modern technologies.
 
         {/* Right Side */}
 
-<div className="flex justify-center relative">
+        <div className="flex justify-center relative">
 
-{/* Purple Glow */}
-<div
-  className="
+          {/* Purple Glow */}
+          <div
+            className="
     absolute
     w-[400px]
     h-[400px]
@@ -310,24 +326,24 @@ with React, JavaScript, and modern technologies.
 
     z-0
   "
-/>
+          />
 
-{/* Floating Avatar */}
-<motion.img
-  src={avatar}
-  alt="Sneha"
+          {/* Floating Avatar */}
+          <motion.img
+            src={avatar}
+            alt="Sneha"
 
-  animate={{
-    y: [-15, 15, -15],
-  }}
+            animate={{
+              y: [-15, 15, -15],
+            }}
 
-  transition={{
-    duration: 4,
-    repeat: Infinity,
-    ease: "easeInOut",
-  }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              ease: "easeInOut",
+            }}
 
-  className="
+            className="
     relative
     z-10
     w-[260px]
@@ -335,9 +351,9 @@ with React, JavaScript, and modern technologies.
     md:w-[400px]
     lg:w-[500px]
   "
-/>
-</div>
-        
+          />
+        </div>
+
       </div>
     </section>
   );

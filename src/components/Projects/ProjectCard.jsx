@@ -11,21 +11,14 @@ const ProjectCard = ({
     <div
       className="
       group
-
       rounded-3xl
-
       overflow-hidden
-
       bg-[#14061f]/70
       backdrop-blur-xl
-
       border
       border-purple-500/20
-
       hover:border-purple-500/50
-
       hover:-translate-y-2
-
       transition-all
       duration-300
       "
@@ -38,11 +31,9 @@ const ProjectCard = ({
           alt={title}
           className="
           w-full
-          h-56
+          h-full
           object-cover
-
           group-hover:scale-105
-
           transition-all
           duration-500
           "
@@ -52,9 +43,7 @@ const ProjectCard = ({
       {/* Content */}
 
       <div className="p-6">
-
         <div className="flex justify-between items-start">
-
           <h3
             className="
             text-2xl
