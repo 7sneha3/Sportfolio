@@ -62,7 +62,7 @@ const ProjectCard = ({
             className="
             w-12
             h-12
-
+            flex-shrink-0
             rounded-full
 
             flex
