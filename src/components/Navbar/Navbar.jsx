@@ -115,7 +115,7 @@ const Navbar = () => {
 
             {/* Desktop Resume */}
             <a
-              href="https://drive.google.com/drive/folders/1nk4GdHXVw9vCmivV3QJL41KbdssRmksB"
+              href="https://drive.google.com/file/d/1Sq7PDkJzhNNNY4kAqZmFGkuoJylK-_qW/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
               className="
