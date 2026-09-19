@@ -4,10 +4,10 @@ export const educationData = [
       title: "Bachelors of Engineering",
       organization:
         "Pimpri Chinchwad College of Engineering & Research, Pune",
-      duration: "2023 - Present",
+      duration: "2023 - 2026",
   
       details: [
-        "Current CGPA: 9.25",
+        "Current CGPA: 9.26",
         "Specialization in Computer Engineering",
         "Smart India Hackathon: Runner-up among the top 10 teams in internal hackathon",
         "Copyrighted: Smart Street Parking Solution",
