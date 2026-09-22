@@ -6,8 +6,6 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer";
 
-// npm run dev
-
 function App() {
   return (
     <>

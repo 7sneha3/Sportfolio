@@ -82,40 +82,11 @@ const Navbar = () => {
             </Link>
           </div>
 
-          {/* Resume Button */}
-          {/* <a
-          href="/resume.pdf"
-          target="_blank"
-          rel="noreferrer"
-          className="
-            flex
-            items-center
-            gap-2
-
-            px-6
-            py-2
-
-            rounded-full
-
-            border
-            border-purple-500/30
-
-            bg-purple-900/20
-
-            text-white
-
-            hover:bg-purple-700/30
-            transition
-          "
-        >
-          <FiBriefcase />
-          Resume
-        </a> */}
           <div className="flex items-center gap-4">
 
             {/* Desktop Resume */}
             <a
-              href="https://drive.google.com/file/d/1Sq7PDkJzhNNNY4kAqZmFGkuoJylK-_qW/view?usp=sharing"
+              href="https://drive.google.com/file/d/1lYr6-6aebeg056ZjnraVsEj750KtCjr0/view?usp=drive_link"
               target="_blank"
               rel="noreferrer"
               className="

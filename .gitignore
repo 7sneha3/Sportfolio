@@ -49,3 +49,4 @@ vite.config.js.timestamp-*
 # Coverage
 coverage/
 
+/src/cmds.txt
